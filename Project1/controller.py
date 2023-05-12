@@ -26,6 +26,9 @@ class Controller(QMainWindow, Ui_MainWindow):
 
 
     def main_menu(self):
+        """
+        Method to display the main menu format.
+        """
 
         self.button_shop.show()
         self.button_exit.show()
@@ -44,6 +47,10 @@ class Controller(QMainWindow, Ui_MainWindow):
 
 
     def shop(self):
+        """
+        Method to display the shopping format when shop is clicked.
+        """
+
         self.button_shop.hide()
         self.button_exit.hide()
         self.label_notification.setText("")
@@ -64,6 +71,9 @@ class Controller(QMainWindow, Ui_MainWindow):
 
 
     def submit(self):
+        """
+        Method to add items when submit is clicked.
+        """
 
         global cookie_count
         global sandwich_count
@@ -121,6 +131,10 @@ class Controller(QMainWindow, Ui_MainWindow):
 
 
     def exit(self):
+        """
+        Method to display the total when exit is clicked.
+        """
+
         self.button_shop.hide()
         self.button_exit.hide()
         self.label_notification.setText("")
