@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>350</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_mainmenu">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Niagara Solid</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>---Main Menu---</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cartmenu">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Niagara Solid</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>---Cart Menu---</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_shop">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Shop</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_exit">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_submit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_grandtotal">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>211</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_notification">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Notification</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cookie">
+    <property name="geometry">
+     <rect>
+      <x>131</x>
+      <y>71</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cookie - $1.50</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_sandwich">
+    <property name="geometry">
+     <rect>
+      <x>131</x>
+      <y>95</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sandwich - $4.00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_water">
+    <property name="geometry">
+     <rect>
+      <x>131</x>
+      <y>120</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Water - $1.00</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_cookie">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>72</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_water">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>120</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_sandwich">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>96</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_error">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_grandtotal</zorder>
+   <zorder>label_mainmenu</zorder>
+   <zorder>label_cartmenu</zorder>
+   <zorder>button_shop</zorder>
+   <zorder>button_exit</zorder>
+   <zorder>button_submit</zorder>
+   <zorder>label_notification</zorder>
+   <zorder>label_cookie</zorder>
+   <zorder>label_sandwich</zorder>
+   <zorder>label_water</zorder>
+   <zorder>input_cookie</zorder>
+   <zorder>input_water</zorder>
+   <zorder>input_sandwich</zorder>
+   <zorder>label_error</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>350</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
